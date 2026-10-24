@@ -1,0 +1,17 @@
+# Caches and builds
+_system/.next/
+_system/node_modules/
+_system/dist/
+
+# Local databases and secrets
+_system/*.db
+_system/*.db*
+_system/.env.local
+_system/.seo-session-secret
+_system/*.log
+_system/.dev-server.pid
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
